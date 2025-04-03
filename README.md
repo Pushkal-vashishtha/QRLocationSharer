@@ -24,21 +24,21 @@ A React Native app that scans QR codes containing phone numbers, fetches your cu
 ## 🚀 Demo Images =>
 <table>
   <tr>
-    <td><img src="/assets/images/1.jpeg" width="350" height="350"></td>
-    <td><img src="/assets/images/2.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/1.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/2.jpeg" width="350" height="350"></td>
   </tr>
   <tr>
-    <td><img src="/assets/images/3.jpeg" width="350" height="350"></td>
-    <td><img src="/assets/images/4.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/3.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/4.jpeg" width="350" height="350"></td>
     
   </tr>
   <tr>
-    <td><img src="/assets/images/5.jpeg" width="350" height="350"></td>
-    <td><img src="/assets/images/6.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/5.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/6.jpeg" width="350" height="350"></td>
   </tr>
     <tr>
-    <td><img src="/assets/images/7.jpeg" width="350" height="350"></td>
-    <td><img src="/assets/images/8.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/7.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/8.jpeg" width="350" height="350"></td>
   </tr>
 </table>
 
