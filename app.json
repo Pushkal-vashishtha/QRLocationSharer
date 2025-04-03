@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "location-share-app",
-    "slug": "location-share-app",
+    "name": "Location Share App",
+    "slug": "qrlocationsharer",
+    "owner": "pushkalvas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,17 +13,45 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.locationshare",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan QR codes",
+        "NSLocationWhenInUseUsageDescription": "This app needs your location to share it with others",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to save QR codes"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yourcompany.locationshare",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-location"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e08b538c-6fa2-481c-9cca-6c61b4071478"
+      }
     }
   }
 }
