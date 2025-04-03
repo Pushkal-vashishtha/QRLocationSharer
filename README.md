@@ -21,7 +21,27 @@ A React Native app that scans QR codes containing phone numbers, fetches your cu
 - React Navigation
 - Expo Sharing
 
-## 🚀 Quick Start
+## 🚀 Demo Images =>
+<table>
+  <tr>
+    <td><img src="/assets/images/1.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/images/2.jpeg" width="350" height="350"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/3.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/images/4.jpeg" width="350" height="350"></td>
+    
+  </tr>
+  <tr>
+    <td><img src="/assets/images/5.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/images/6.jpeg" width="350" height="350"></td>
+  </tr>
+    <tr>
+    <td><img src="/assets/images/7.jpeg" width="350" height="350"></td>
+    <td><img src="/assets/images/8.jpeg" width="350" height="350"></td>
+  </tr>
+</table>
+
 
 ### Prerequisites
 - Node.js 16+
