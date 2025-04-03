@@ -19,7 +19,7 @@ export default function QRScannerScreen() {
   const handleBarCodeScanned = ({ data }: { data: string }) => {
     setScanned(true);
     
-    // Extract phone number (supports formats: +1234567890, 1234567890)
+    // to have phone number in the format +1234567890 or 1234567890
     const phoneRegex = /^(\+?\d{10,15})$/;
     const phoneNumber = data.trim();
     
