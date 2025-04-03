@@ -2,6 +2,11 @@
 
 A React Native app that scans QR codes containing phone numbers, fetches your current location, and shares it via WhatsApp with one tap.
 
+
+## Link for .apk file is 
+https://expo.dev/accounts/pushkalvas/projects/qrlocationsharer/builds/848c4b9d-0f8f-4a6c-ac44-2a57eaa48870
+
+
 ## ✨ Features
 
 - **QR Scanner** - Scan phone numbers from QR codes using device camera
