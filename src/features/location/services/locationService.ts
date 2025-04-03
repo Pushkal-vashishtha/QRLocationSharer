@@ -15,19 +15,19 @@ type LocationResult = {
 
 export const getCurrentLocation = async (): Promise<LocationResult> => {
   try {
-    //  To have permissions request for location 
+// request to have permissions for location
     let { status } = await Location.requestForegroundPermissionsAsync();
     
     if (status !== 'granted') {
       throw new Error('Location permission denied');
     }
 
-    // To get current position
+    // request to get current position
     const location = await Location.getCurrentPositionAsync({
       accuracy: Location.Accuracy.High,
     });
 
-    //  Reverse geocode to get address
+    //  Reverse geocode to get address in human readable format 
     const address = await Location.reverseGeocodeAsync({
       latitude: location.coords.latitude,
       longitude: location.coords.longitude,
@@ -50,7 +50,6 @@ export const getCurrentLocation = async (): Promise<LocationResult> => {
   }
 };
 
-// format location for sharing
 export const formatLocationForSharing = (location: LocationResult): string => {
   return `📍 My Current Location:
 Latitude: ${location.coords.latitude.toFixed(6)}
