@@ -45,5 +45,6 @@ export const formatLocationForSharing = (location: LocationResult): string => {
   return `📍 My Location:
 Lat: ${location.coords.latitude.toFixed(6)}
 Lng: ${location.coords.longitude.toFixed(6)}
-${location.address ? `Address: ${location.address}` : ''}`;
+${location.address ? `Address: ${location.address}` : ''}\n\n
+Google Maps: https://maps.google.com/?q=${location.coords.latitude},${location.coords.longitude}`;
 };
