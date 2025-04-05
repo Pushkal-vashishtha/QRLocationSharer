@@ -4,7 +4,9 @@ A React Native app that scans QR codes containing phone numbers, fetches your cu
 
 
 ## Link for .apk file is 
-https://expo.dev/accounts/pushkalvas/projects/qrlocationsharer/builds/848c4b9d-0f8f-4a6c-ac44-2a57eaa48870
+updated => https://expo.dev/accounts/pushkalvas/projects/qrlocationsharer/builds/447c832f-3e57-4e0f-913e-ff8dc36c2a8b
+
+old one => https://expo.dev/accounts/pushkalvas/projects/qrlocationsharer/builds/848c4b9d-0f8f-4a6c-ac44-2a57eaa48870
 
 
 ## ✨ Features
